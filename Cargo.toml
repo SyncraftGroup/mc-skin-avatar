@@ -1,0 +1,16 @@
+[package]
+name = "mc-skin-avatar"
+version = "0.1.0"
+description = "Image-level helpers for Minecraft skin textures: validation, slim detection, and head avatar rendering."
+edition = "2024"
+authors = ["Falsw <Falsestar114514@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+documentation = "https://docs.rs/mc-skin-avatar"
+keywords = ["minecraft", "skin", "avatar", "png"]
+categories = ["graphics", "games"]
+rust-version = "1.85"
+
+[dependencies]
+image = { version = "0.25", default-features = false, features = ["png"] }
+thiserror = "2"
